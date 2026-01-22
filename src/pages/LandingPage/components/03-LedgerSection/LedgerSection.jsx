@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './LedgerSection.css';
-import MobileSVG from '/assets/Ledger-section/svg-mobile.svg';
-import DesktopSVG from '/assets/Ledger-section/svg-desktop.svg';
+import MobileSVG from '/assets/Ledger-section/svg-mobile.webp';
+import DesktopSVG from '/assets/Ledger-section/svg-desktop.webp';
 
 const LedgerSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
@@ -39,7 +39,7 @@ const LedgerSection = () => {
             onClick={handleShowLedger}
           >
             Show Ledger
-            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg" alt="" className="lp-button-icon" />
+            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp" alt="" className="lp-button-icon" />
           </button>
         </div>
 

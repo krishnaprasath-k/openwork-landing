@@ -29,17 +29,17 @@ const RevolutionSection = () => {
             onClick={() => navigate('/home')}
           >
             Launch App
-            <img src="/assets/lp12-arrow-icon.svg" alt="" className="lp-button-icon" />
+            <img src="/assets/lp12-arrow-icon.webp" alt="" className="lp-button-icon" />
           </button>
         </div>
 
         <div className="lp-12-circle-container">
           <div className="lp-12-network-group">
-            <img src="/assets/lp12-network.svg" alt="Network" className="lp-12-network-bg" />
+            <img src="/assets/lp12-network.webp" alt="Network" className="lp-12-network-bg" />
 
             <div className="lp-12-center-token">
               <div className="lp-12-token-badge">
-                <img src="/assets/lp12-logo.svg" alt="OpenWork" className="lp-12-logo-icon" />
+                <img src="/assets/lp12-logo.webp" alt="OpenWork" className="lp-12-logo-icon" />
               </div>
             </div>
           </div>

@@ -96,7 +96,7 @@
     /* Responsive sizing - scales with viewport height */
     width: 788px;
     height:   788px;
-    background: url('/assets/RadiantGlow.svg') center/contain no-repeat;
+    background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
     animation: rotate-glow 3s linear infinite;
     pointer-events: none;
     z-index: 0;
@@ -452,7 +452,7 @@
     transform: translate(-50%, -50%) scale(0.8);
     width: 1600px;
     height: 600px;
-    background: url('/assets/RadiantGlow.svg') center/contain no-repeat;
+    background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
     animation: sidebar-rotate-glow 1s linear infinite;
     pointer-events: none;
     opacity: 0;
@@ -1923,7 +1923,7 @@
   transform: translate(-50%, -50%);
   width: 768px;
   height: 768px;
-  background: url('/assets/RadiantGlow.svg') center/contain no-repeat;
+  background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
   animation: rotate-glow 4s linear infinite;
   pointer-events: none;
   border-radius: 580.726px;

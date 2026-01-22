@@ -56,22 +56,22 @@ const LandingHeader = ({ onLaunchApp }) => {
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { handleLogoClick(); e.preventDefault(); } }}
       >
         <img src="/assets/Logo.jpg" alt="OpenWork" className="logo logo-desktop" />
-        <img src="/assets/openwork-logo/logo.svg" alt="OpenWork" className="logo logo-mobile" />
+        <img src="/assets/openwork-logo/logo.webp" alt="OpenWork" className="logo logo-mobile" />
       </div>
       
       <div className="header-actions">
         <Button 
-          icon="/assets/f424bb301166452f1d2aae2badd19051c2788323.svg"
+          icon="/assets/f424bb301166452f1d2aae2badd19051c2788323.webp"
           buttonCss={`header-icon-btn mobile-scroll-icon ${pastHero ? 'show' : ''}`}
           onClick={handleBotClick}
 
         />
         <Button 
-          icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.svg"
+          icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.webp"
           buttonCss={`header-icon-btn mobile-scroll-icon ${pastHero ? 'show' : ''}`}
         />
         <Button 
-          icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.svg"
+          icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.webp"
           buttonCss="header-icon-btn"
         />
         <button 
@@ -80,7 +80,7 @@ const LandingHeader = ({ onLaunchApp }) => {
         >
           Launch App
           <img
-            src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg"
+            src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp"
             alt=""
             className="lp-button-icon lp-launch-arrow"
           />

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './JobProgressSection.css';
-import MobileSVG from '/assets/jobprogress/svg-mob.svg';
+import MobileSVG from '/assets/jobprogress/svg-mob.webp';
 import DesktopSVG from '/assets/jobprogress/svgimg.svg';
-import ButtonIcon from '/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg';
+import ButtonIcon from '/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp';
 
 const JobProgressSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);

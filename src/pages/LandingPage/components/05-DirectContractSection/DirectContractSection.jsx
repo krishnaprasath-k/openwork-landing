@@ -34,35 +34,35 @@ const DirectContractSection = () => {
             onClick={handleCreateContract}
           >
             Create Direct Contract
-            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg" alt="" className="lp-button-icon" />
+            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp" alt="" className="lp-button-icon" />
           </button>
         </div>
 
         <div className="contract-circle-section">
           <div className="contract-circle-group">
             <div className="contract-radiant-glow">
-              <img src="/assets/lp5-glow-1.svg" alt="" />
-              <img src="/assets/lp5-glow-2.svg" alt="" className="glow-overlay" />
+              <img src="/assets/lp5-glow-1.webp" alt="" />
+              <img src="/assets/lp5-glow-2.webp" alt="" className="glow-overlay" />
             </div>
             
             <img 
-              src="/assets/directcontract/image.png" 
+              src="/assets/directcontract/image.webp" 
               alt="" 
               className="contract-circle-bg"
             />
 
             <div className="contract-avatar contract-avatar-left">
-              <img src="/assets/3d90d978da202913302b7c506fa777f428500cc6.png" alt="Jollie Hall" />
+              <img src="/assets/3d90d978da202913302b7c506fa777f428500cc6.webp" alt="Jollie Hall" />
             </div>
 
             <div className="contract-avatar contract-avatar-right">
-              <img src="/assets/mollie-avatar.png" alt="Mollie Hall" />
+              <img src="/assets/mollie-avatar.webp" alt="Mollie Hall" />
             </div>
 
             <div className="contract-center-info">
               <div className="contract-amount">
                 <span className="amount-value">45</span>
-                <img src="/assets/usdc-icon.png" alt="USDC" className="usdc-icon" />
+                <img src="/assets/usdc-icon.webp" alt="USDC" className="usdc-icon" />
               </div>
               <span className="amount-label">AMOUNT LOCKED</span>
             </div>
@@ -70,7 +70,7 @@ const DirectContractSection = () => {
             <div className="contract-info contract-info-left">
               <div className="contract-amount">
                 <span className="amount-value">100</span>
-                <img src="/assets/usdc-icon.png" alt="USDC" className="usdc-icon" />
+                <img src="/assets/usdc-icon.webp" alt="USDC" className="usdc-icon" />
               </div>
               <span className="amount-label">AMOUNT PAID</span>
               <span className="user-name">Jollie Hall</span>
@@ -79,7 +79,7 @@ const DirectContractSection = () => {
             <div className="contract-info contract-info-right">
               <div className="contract-amount">
                 <span className="amount-value">50</span>
-                <img src="/assets/usdc-icon.png" alt="USDC" className="usdc-icon" />
+                <img src="/assets/usdc-icon.webp" alt="USDC" className="usdc-icon" />
               </div>
               <span className="amount-label-right">AMOUNT RECEIVED</span>
               <span className="user-name">Mollie Hall</span>

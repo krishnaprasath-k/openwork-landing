@@ -33,7 +33,7 @@ const MultiChainSection = () => {
             onClick={() => navigate('/documentation')}
           >
             View Documentation
-            <img src="/assets/lp7-arrow-icon.svg" alt="" className="lp-button-icon" />
+            <img src="/assets/lp7-arrow-icon.webp" alt="" className="lp-button-icon" />
           </button>
         </div>
 
@@ -44,7 +44,7 @@ const MultiChainSection = () => {
 
             {/* Core Circle */}
             <div className="lp-10-core-circle">
-              <img src="/assets/lp7-core-circle.svg" alt="" className="lp-10-core-bg" />
+              <img src="/assets/lp7-core-circle.webp" alt="" className="lp-10-core-bg" />
             </div>
 
             {/* Center Label */}
@@ -53,15 +53,15 @@ const MultiChainSection = () => {
             </div>
 
             {/* Outer Chain Image */}
-            <img src="/assets/Frame 2147261901.png" alt="Chain Networks" className="lp-10-outer-chain-image" />
+            <img src="/assets/Frame 2147261901.webp" alt="Chain Networks" className="lp-10-outer-chain-image" />
 
             {/* Center Chain Icons (static) */}
             <div className="lp-10-chain-icon lp-10-chain-xdc">
-              <img src="/assets/Shape_1_2_.svg" alt="XDC" />
+              <img src="/assets/Shape_1_2_.webp" alt="XDC" />
             </div>
 
             <div className="lp-10-chain-icon lp-10-chain-arbitrum-center">
-              <img src="/assets/lp10-arbitrum.svg" alt="Arbitrum" />
+              <img src="/assets/lp10-arbitrum.webp" alt="Arbitrum" />
             </div>
           </div>
         </div>

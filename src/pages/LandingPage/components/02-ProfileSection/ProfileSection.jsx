@@ -2,17 +2,17 @@ import React, { useState, useEffect } from 'react';
 import './ProfileSection.css';
 
 // SVG imports
-import ButtonIcon from '/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg';
-import GlowBase from '/assets/f01626b372dd2b2391f5fe54c12ae2256c1f5afb.svg';
-import GlowOverlay from '/assets/091c505d411eb57b9f1d9290b4460a2192f03cba.svg';
-import AboutIcon from '/assets/081d3bfdc15b7ac4902803ad1728684196fe82ca.svg';
-import JobsIcon from '/assets/bb51c34d86b51b6cc653f8826f3a8f5c05028d96.svg';
-import StarBg from '/assets/c88d1ccb13275217d5fa8cc23be07c290ae77d34.svg';
-import StarIcon from '/assets/721e043aefa6d0dae1674935f768680ab6f3a4f2.svg';
+import ButtonIcon from '/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp';
+import GlowBase from '/assets/f01626b372dd2b2391f5fe54c12ae2256c1f5afb.webp';
+import GlowOverlay from '/assets/091c505d411eb57b9f1d9290b4460a2192f03cba.webp';
+import AboutIcon from '/assets/081d3bfdc15b7ac4902803ad1728684196fe82ca.webp';
+import JobsIcon from '/assets/bb51c34d86b51b6cc653f8826f3a8f5c05028d96.webp';
+import StarBg from '/assets/c88d1ccb13275217d5fa8cc23be07c290ae77d34.webp';
+import StarIcon from '/assets/721e043aefa6d0dae1674935f768680ab6f3a4f2.webp';
 
 // PNG imports
-import ProfileCircleBg from '/assets/directcontract/image.png';
-import ProfileAvatar from '/assets/3d90d978da202913302b7c506fa777f428500cc6.png';
+import ProfileCircleBg from '/assets/directcontract/image.webp';
+import ProfileAvatar from '/assets/3d90d978da202913302b7c506fa777f428500cc6.webp';
 
 const ProfileSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);

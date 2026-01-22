@@ -51,77 +51,77 @@ const HeroSection = () => {
       name: 'set-profile',
       label: 'Set Profile',
       sectionId: 'lp-2-section',
-      icon: '/assets/icons/setprofile.svg',
+      icon: '/assets/icons/setprofile.webp',
       className: 'icon-set-profile',
     },
     {
       name: 'discoverable',
       label: 'Discoverable',
       sectionId: 'lp-3-section',
-      icon: '/assets/icons/discoverable.svg',
+      icon: '/assets/icons/discoverable.webp',
       className: 'icon-discoverable',
     },
     {
       name: 'post-job',
       label: 'Post Job',
       sectionId: 'lp-4-section',
-      icon: '/assets/icons/postjob.svg',
+      icon: '/assets/icons/postjob.webp',
       className: 'icon-post-job',
     },
     {
       name: 'direct-contract',
       label: 'Direct Contract',
       sectionId: 'lp-5-section',
-      icon: '/assets/icons/directcontract.svg',
+      icon: '/assets/icons/directcontract.webp',
       className: 'icon-direct-contract',
     },
     {
       name: 'job-progress',
       label: 'Job Progress',
       sectionId: 'lp-6-section',
-      icon: '/assets/icons/jobprogress.svg',
+      icon: '/assets/icons/jobprogress.webp',
       className: 'icon-job-progress',
     },
     {
       name: 'raise-dispute',
       label: 'Raise Dispute',
       sectionId: 'lp-7-section',
-      icon: '/assets/icons/raisedispute.svg',
+      icon: '/assets/icons/raisedispute.webp',
       className: 'icon-raise-dispute',
     },
     {
       name: 'earn-token',
       label: 'Earn Token',
       sectionId: 'lp-8-section',
-      icon: '/assets/icons/earntoken.svg',
+      icon: '/assets/icons/earntoken.webp',
       className: 'icon-earn-token',
     },
     {
       name: 'dao',
       label: 'DAO',
       sectionId: 'lp-9-section',
-      icon: '/assets/icons/dao.svg',
+      icon: '/assets/icons/dao.webp',
       className: 'icon-dao',
     },
     {
       name: 'multichain',
       label: 'Multi Chain',
       sectionId: 'lp-10-section',
-      icon: '/assets/icons/multichain.svg',
+      icon: '/assets/icons/multichain.webp',
       className: 'icon-multichain',
     },
     {
       name: 'architecture',
       label: 'Architecture',
       sectionId: 'lp-11-section',
-      icon: '/assets/icons/architecture.svg',
+      icon: '/assets/icons/architecture.webp',
       className: 'icon-architecture',
     },
     {
       name: 'revolution',
       label: 'Revolution',
       sectionId: 'lp-12-section',
-      icon: '/assets/icons/revolution.svg',
+      icon: '/assets/icons/revolution.webp',
       className: 'icon-revolution',
     },
   ];
@@ -651,7 +651,7 @@ const HeroSection = () => {
         <div className="circle-group">
           {/* Main Circle */}
           <img 
-            src="/assets/f0a5bddf438bec766e653cd0886722bed6ea4ee3.svg" 
+            src="/assets/f0a5bddf438bec766e653cd0886722bed6ea4ee3.webp" 
             alt="" 
             className="main-circle-bg"
           />
@@ -717,16 +717,16 @@ const HeroSection = () => {
         {/* Navbar Floating Icons for Mobile */}
         <div className="navbar-floating-icons">
           <Button 
-            icon="/assets/f424bb301166452f1d2aae2badd19051c2788323.svg"
+            icon="/assets/f424bb301166452f1d2aae2badd19051c2788323.webp"
             buttonCss="navbar-icon-btn navbar-icon-bot"
             onClick={handleBotClick}
           />
           <Button 
-            icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.svg"
+            icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.webp"
             buttonCss="navbar-icon-btn navbar-icon-2"
           />
           <Button 
-            icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.svg"
+            icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.webp"
             buttonCss="navbar-icon-btn navbar-icon-3"
           />
         </div>
@@ -746,7 +746,7 @@ const HeroSection = () => {
             onClick={handleLearnMore}
           >
             {isDesktop ? "Get Started" :"Learn More"}
-            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg" alt="" className="lp-button-icon lp-button-icon-home" />
+            <img src="/assets/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp" alt="" className="lp-button-icon lp-button-icon-home" />
           </button>
         </div>
 

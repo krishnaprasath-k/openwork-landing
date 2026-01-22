@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './DisputeSection.css';
 import OuterCircleSVG from '/assets/outer-circle-dispute.svg';
-import CoreCircleSVG from '/assets/lp7-core-circle.svg';
-import AthenaSVG from '/assets/Athena.svg';
-import JobTextSVG from '/assets/job-text.svg';
-import ArrowIcon from '/assets/lp7-arrow-icon.svg';
+import CoreCircleSVG from '/assets/lp7-core-circle.webp';
+import AthenaSVG from '/assets/Athena.webp';
+import JobTextSVG from '/assets/job-text.webp';
+import ArrowIcon from '/assets/lp7-arrow-icon.webp';
 
 const DisputeSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);

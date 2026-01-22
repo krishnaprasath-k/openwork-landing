@@ -73,7 +73,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: url('/assets/RadiantGlow.png') center/contain no-repeat;
+  background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
   animation: rotate-glow 20s linear infinite;
   pointer-events: none;
   z-index: 0;

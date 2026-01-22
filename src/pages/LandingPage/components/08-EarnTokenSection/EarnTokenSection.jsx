@@ -3,16 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import './EarnTokenSection.css';
 
 // SVG imports
-import EllipseBgSVG from '/assets/lp8-ellipse-bg.svg';
-import CoreCircleSVG from '/assets/lp8-core-circle.svg';
-import ArrowIcon from '/assets/lp8-arrow-icon.svg';
-import OworkTokenSVG from '/assets/lp8-owork-token.svg';
+import EllipseBgSVG from '/assets/lp8-ellipse-bg.webp';
+import CoreCircleSVG from '/assets/lp8-core-circle.webp';
+import ArrowIcon from '/assets/lp8-arrow-icon.webp';
+import OworkTokenSVG from '/assets/lp8-owork-token.webp';
 
 // PNG imports
-import OpenworkCoin from '/assets/lp8-openwork-coin.png';
-import UsdcIcon from '/assets/lp8-usdc-icon.png';
-import User1 from '/assets/lp8-user-1.png';
-import User2 from '/assets/lp8-user-2.png';
+import OpenworkCoin from '/assets/lp8-openwork-coin.webp';
+import UsdcIcon from '/assets/lp8-usdc-icon.webp';
+import User1 from '/assets/lp8-user-1.webp';
+import User2 from '/assets/lp8-user-2.webp';
 
 const EarnTokenSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);

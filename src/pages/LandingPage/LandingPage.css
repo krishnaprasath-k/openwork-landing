@@ -28,7 +28,7 @@
   transform: translateY(-50%);
   width: 2100px;
   height: 2500px;
-  background: url('/assets/RadiantGlow.svg') center/contain no-repeat;
+  background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
   animation: rotate-page-glow 8s linear infinite;
   pointer-events: none;
   z-index: 998;

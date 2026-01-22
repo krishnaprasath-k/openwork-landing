@@ -129,7 +129,7 @@ const ContactSection = () => {
             >
               {status === 'submitting' ? 'Sending...' : 'Send Message'}
               {status !== 'submitting' && (
-                <img src="/assets/lp13-arrow-icon.svg" alt="" className="lp-13-button-icon" />
+                <img src="/assets/lp13-arrow-icon.webp" alt="" className="lp-13-button-icon" />
               )}
             </button>
           </form>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './PostJobSection.css';
-import MobileSVG from '../../../../assets/browsejob/image-mobile.svg';
+import MobileSVG from '../../../../assets/browsejob/image-mobile.webp';
 import DesktopSVG from '../../../../assets/browsejob/svgimg.svg';
-import ButtonIcon from '../../../../assets/browsejob/b16a6ff87b2913f8bdc303dda7816c024bd687cb.svg';
+import ButtonIcon from '../../../../assets/browsejob/b16a6ff87b2913f8bdc303dda7816c024bd687cb.webp';
 
 
 const PostJobSection = () => {

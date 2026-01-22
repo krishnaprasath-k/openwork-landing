@@ -134,7 +134,7 @@
   transform: translate(-50%, -50%);
   width: 280px;
   height: 280px;
-  background: url('/assets/RadiantGlow.png') center/contain no-repeat;
+  background: url('/assets/RadiantGlow.webp') center/contain no-repeat;
   animation: lp8-rotate-glow 20s linear infinite;
   pointer-events: none;
   z-index: -1;

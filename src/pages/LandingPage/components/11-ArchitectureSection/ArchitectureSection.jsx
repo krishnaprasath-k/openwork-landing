@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ArchitectureSection.css';
-import ArchitectureDiagram from '/assets/LP-11 architectecture.svg';
-import ArrowIcon from '/assets/lp8-arrow-icon.svg';
+import ArchitectureDiagram from '/assets/LP-11 architectecture.webp';
+import ArrowIcon from '/assets/lp8-arrow-icon.webp';
 
 const ArchitectureSection = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
