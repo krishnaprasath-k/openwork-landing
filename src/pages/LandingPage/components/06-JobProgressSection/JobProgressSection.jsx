@@ -19,7 +19,7 @@ const JobProgressSection = () => {
   }, []);
 
   const handleViewJobs = () => {
-    navigate('/browse-jobs');
+    window.open('https://app.openwork.technology/browse-jobs', '_blank');
   };
 
   // Memoize the image source

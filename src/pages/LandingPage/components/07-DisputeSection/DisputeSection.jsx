@@ -43,7 +43,7 @@ const DisputeSection = () => {
           </div>
           <button 
             className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
-            onClick={() => navigate('/browse-jobs')}
+            onClick={() => window.open('https://app.openwork.technology/skill-oracle-disputes', '_blank')}
           >
             See Disputes
             <img src={ArrowIcon} alt="" className="lp-button-icon" />

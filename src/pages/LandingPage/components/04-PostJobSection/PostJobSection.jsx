@@ -22,7 +22,7 @@ console.log('Bundler output:', DesktopSVG);
   }, []);
 
   const handlePostJob = () => {
-    navigate('/browse-jobs');
+    window.open('https://app.openwork.technology/post-job', '_blank');
   };
 
   // Memoize the image source to prevent unnecessary recalculations

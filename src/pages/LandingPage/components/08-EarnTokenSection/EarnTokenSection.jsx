@@ -45,7 +45,7 @@ const EarnTokenSection = () => {
           </div>
           <button 
             className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
-            onClick={() => navigate('/browse-jobs')}
+            onClick={() => window.open('https://app.openwork.technology/refer-earn', '_blank')}
           >
             Earn OWORK Token
             <img src={ArrowIcon} alt="" className="lp-button-icon" />

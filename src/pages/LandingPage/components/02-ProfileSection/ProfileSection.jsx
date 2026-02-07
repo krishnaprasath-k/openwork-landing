@@ -27,9 +27,7 @@ const ProfileSection = () => {
   }, []);
 
   const handleSetProfile = () => {
-    document.getElementById('lp-2-section').scrollIntoView({ 
-      behavior: 'smooth' 
-    });
+    window.open('https://app.openwork.technology/profile', '_blank');
   };
 
   return (

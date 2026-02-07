@@ -16,7 +16,7 @@ const DirectContractSection = () => {
   const navigate = useNavigate();
 
   const handleCreateContract = () => {
-    navigate('/browse-jobs');
+    window.open('https://app.openwork.technology/direct-contract', '_blank');
   };
 
   return (

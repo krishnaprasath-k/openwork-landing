@@ -21,7 +21,7 @@ const LedgerSection = () => {
   const navigate = useNavigate();
 
   const handleShowLedger = () => {
-    navigate('/browse-jobs');
+    window.open('https://app.openwork.technology/browse-jobs', '_blank');
   };
 
   return (

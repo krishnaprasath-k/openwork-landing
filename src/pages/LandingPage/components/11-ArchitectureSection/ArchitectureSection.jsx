@@ -37,7 +37,7 @@ const ArchitectureSection = () => {
 
           <button 
             className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
-            onClick={() => navigate('/documentation')}
+            onClick={() => window.open('https://app.openwork.technology/docs', '_blank')}
           >
             View Documentation
             <img src={ArrowIcon} alt="" className="lp-button-icon" />
