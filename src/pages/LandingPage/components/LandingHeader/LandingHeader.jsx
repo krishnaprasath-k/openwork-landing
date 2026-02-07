@@ -20,7 +20,7 @@ const LandingHeader = ({ onLaunchApp }) => {
   }, []);
 
   const handleLaunchApp = () => {
-    navigate('/home');
+    window.open('https://app.openwork.technology', '_blank');
   };
 
   const handleBotClick = () => {
@@ -69,10 +69,12 @@ const LandingHeader = ({ onLaunchApp }) => {
         <Button 
           icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.svg"
           buttonCss={`header-icon-btn mobile-scroll-icon ${pastHero ? 'show' : ''}`}
+          onClick={() => window.open('https://app.openwork.technology/docs', '_blank')}
         />
         <Button 
           icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.svg"
           buttonCss="header-icon-btn"
+          onClick={() => window.open('https://drive.google.com/file/d/1tdpuAM3UqiiP_TKJMa5bFtxOG4bU_6ts/view', '_blank')}
         />
         <button 
           className="lp-blue-button"

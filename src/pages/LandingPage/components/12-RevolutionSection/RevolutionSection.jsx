@@ -26,7 +26,7 @@ const RevolutionSection = () => {
           </div>
           <button 
             className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
-            onClick={() => navigate('/home')}
+            onClick={() => window.open('https://app.openwork.technology', '_blank')}
           >
             Launch App
             <img src="/assets/lp12-arrow-icon.svg" alt="" className="lp-button-icon" />
