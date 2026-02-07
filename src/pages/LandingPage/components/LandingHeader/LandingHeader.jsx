@@ -23,9 +23,9 @@ const LandingHeader = ({ onLaunchApp }) => {
     window.open('https://app.openwork.technology', '_blank');
   };
 
-  const handleBotClick = () => {
-    window.open('https://chatgpt.com/g/g-6811cd644b1c8191b203796b06deaa4a-openwork-simplified', '_blank');
-  };
+  // const handleBotClick = () => {
+  //   window.open('https://chatgpt.com/g/g-6811cd644b1c8191b203796b06deaa4a-openwork-simplified', '_blank');
+  // };
 
   const handleLogoClick = () => {
     // Notify other components (HeroSection) to collapse/act like Home was clicked
@@ -60,12 +60,12 @@ const LandingHeader = ({ onLaunchApp }) => {
       </div>
       
       <div className="header-actions">
-        <Button 
+        {/* <Button 
           icon="/assets/f424bb301166452f1d2aae2badd19051c2788323.svg"
           buttonCss={`header-icon-btn mobile-scroll-icon ${pastHero ? 'show' : ''}`}
           onClick={handleBotClick}
 
-        />
+        /> */}
         <Button 
           icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.svg"
           buttonCss={`header-icon-btn mobile-scroll-icon ${pastHero ? 'show' : ''}`}
