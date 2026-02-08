@@ -26,7 +26,7 @@ const ContactSection = () => {
       formDataToSend.append('_subject', `New Contact Form Message from ${formData.name}`);
       formDataToSend.append('_captcha', 'false');
 
-      const response = await fetch('https://formsubmit.co/ajax/armandpoonawala08@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/armand@openwork.technologys', {
         method: 'POST',
         body: formDataToSend,
       });
