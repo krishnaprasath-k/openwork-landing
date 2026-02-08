@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { EMAILJS_CONFIG } from '../../../../config/emailjs.config';
 import './ContactSection.css';
 
 const ContactSection = () => {
@@ -19,27 +21,24 @@ const ContactSection = () => {
     setStatus('submitting');
 
     try {
-      const formDataToSend = new FormData();
-      formDataToSend.append('name', formData.name);
-      formDataToSend.append('email', formData.email);
-      formDataToSend.append('message', formData.message);
-      formDataToSend.append('_subject', `New Contact Form Message from ${formData.name}`);
-      formDataToSend.append('_captcha', 'false');
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+        to_name: 'OpenWork Team',
+      };
 
-      const response = await fetch('https://formsubmit.co/ajax/armand@openwork.technologys', {
-        method: 'POST',
-        body: formDataToSend,
-      });
-
-      const result = await response.json();
+      await emailjs.send(
+        EMAILJS_CONFIG.serviceId,
+        EMAILJS_CONFIG.templateId,
+        templateParams,
+        EMAILJS_CONFIG.publicKey
+      );
       
-      if (result.success) {
-        setStatus('success');
-        setFormData({ name: '', email: '', message: '' });
-      } else {
-        setStatus('error');
-      }
+      setStatus('success');
+      setFormData({ name: '', email: '', message: '' });
     } catch (error) {
+      console.error('EmailJS error:', error);
       setStatus('error');
     }
   };
