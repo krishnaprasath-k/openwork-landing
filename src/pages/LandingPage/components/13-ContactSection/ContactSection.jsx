@@ -21,11 +21,13 @@ const ContactSection = () => {
     setStatus('submitting');
 
     try {
+      const now = new Date();
       const templateParams = {
-        from_name: formData.name,
-        from_email: formData.email,
+        name: formData.name,
+        email: formData.email,
         message: formData.message,
-        to_name: 'OpenWork Team',
+        title: 'New Contact Form Submission',
+        time: now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }),
       };
 
       await emailjs.send(
