@@ -247,6 +247,12 @@ body.sidebar-expanded .page-radiant-glow {
   .lp-section {
     padding: 30px 16px;
   }
+
+  /* Hide all section action buttons on mobile */
+  .section-action-button {
+    display: none !important;
+  }
+
    .lp-blue-button-1 {
     color: var(--Base-White, #FFF);
     font-family: Satoshi,sans-serif;

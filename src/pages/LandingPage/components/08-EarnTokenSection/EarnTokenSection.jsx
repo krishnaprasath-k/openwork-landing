@@ -44,7 +44,7 @@ const EarnTokenSection = () => {
             <p className="lp-8-description">{descriptionText}</p>
           </div>
           <button 
-            className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
+            className={isMobile ? "lp-blue-button-1 section-action-button" : "lp-blue-button section-action-button"}
             onClick={() => window.open('https://app.openwork.technology/refer-earn', '_blank')}
           >
             Earn OWORK Token

@@ -25,7 +25,7 @@ const GovernanceSection = () => {
           </p>
           </div>
           <button 
-            className={isMobile?"lp-blue-button-1":"lp-blue-button"}
+            className={isMobile?"lp-blue-button-1 section-action-button":"lp-blue-button section-action-button"}
             onClick={() => window.open('https://app.openwork.technology/docs', '_blank')}
           >
             View Documentation

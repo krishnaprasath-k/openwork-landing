@@ -50,7 +50,7 @@ console.log('Bundler output:', DesktopSVG);
             </p>
           </div>
           <button 
-            className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
+            className={isMobile ? "lp-blue-button-1 section-action-button" : "lp-blue-button section-action-button"}
             onClick={handlePostJob}
           >
             Post Job/Browse Talent

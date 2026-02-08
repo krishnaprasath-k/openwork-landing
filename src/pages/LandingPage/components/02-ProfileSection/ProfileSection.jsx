@@ -43,7 +43,7 @@ const ProfileSection = () => {
           </div>
           
           <button 
-            className={isMobile ? "lp-blue-button-1" : "lp-blue-button"}
+            className={isMobile ? "lp-blue-button-1 section-action-button" : "lp-blue-button section-action-button"}
             onClick={handleSetProfile}
           >
             Set Your Profile
