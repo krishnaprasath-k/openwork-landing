@@ -541,7 +541,7 @@ const HeroSection = () => {
   };
 
   const handleBotClick = () => {
-    window.open('https://chatgpt.com/g/g-6811cd644b1c8191b203796b06deaa4a-openwork-simplified', '_blank');
+    window.open('https://app.openwork.technology/oppy', '_blank');
   };
 
   const handleHomeClick = () => {
@@ -724,10 +724,12 @@ const HeroSection = () => {
           <Button 
             icon="/assets/203519ed928f5759c5c5434e7d71de7598f55b96.svg"
             buttonCss="navbar-icon-btn navbar-icon-2"
+            onClick={() => window.open('https://drive.google.com/file/d/1tdpuAM3UqiiP_TKJMa5bFtxOG4bU_6ts/view', '_blank')}
           />
           <Button 
             icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.svg"
             buttonCss="navbar-icon-btn navbar-icon-3"
+            onClick={() => window.open('https://app.openwork.technology/docs', '_blank')}
           />
         </div>
 
