@@ -804,7 +804,7 @@ const HeroSection = () => {
             buttonCss="navbar-icon-btn navbar-icon-2"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1tdpuAM3UqiiP_TKJMa5bFtxOG4bU_6ts/view",
+                "https://app.openwork.technology/docs",
                 "_blank",
               )
             }
@@ -813,7 +813,7 @@ const HeroSection = () => {
             icon="/assets/141ae2395558d7fc65c358b46cf1beaa163ad655.svg"
             buttonCss="navbar-icon-btn navbar-icon-3"
             onClick={() =>
-              window.open("https://app.openwork.technology/docs", "_blank")
+              window.open("https://drive.google.com/file/d/1tdpuAM3UqiiP_TKJMa5bFtxOG4bU_6ts/view", "_blank")
             }
           />
         </div>
